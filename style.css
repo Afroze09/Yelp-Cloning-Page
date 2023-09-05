@@ -4,9 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    overflow-x: hidden;
-}
 .dflex{
     display: flex;
     align-items: center;
@@ -433,7 +430,8 @@ p{
     font-size: 14px;
 }
 .categories{
-    /* padding-top: 50px; */
+    padding-top: 50px;
+    border: 1px solid #ebebeb;
     font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
     width: 100vw;
 }
